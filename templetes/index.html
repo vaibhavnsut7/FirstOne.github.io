@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+{% block title %} Home {% endblock title %}
+{% block body %}
+
+<div class="container my-4 px- 0">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x600/?Workout,trophy,Running" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>For the Athelets</h5>
+          <p>You can't make a great play unless you do it first in practice. -Chuck Noll</p>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?Sports,football,basketball" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Winners Takes it ALL!</h5>s
+          <p>I don’t mind people hating me, because it pushes me.-Cristiano Ronaldo</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x600/?Tennis Boxing " class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>For the Believers</h5>
+          <p>There is no Way Around the hard Work, Embrace it!-Federer</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container my-2">
+  <h1 class="my-2 text-center"> PRODUCTS   </h1>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/basketball.jpeg" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Basketball</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/football1.jpeg" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Football</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Boxing.jpeg" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Boxing</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+             
+            </div>
+       
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Tennis1.jpeg" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Tennis</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+             
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/gym1.jpeg" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Gym Men</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+ 
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Gym_women.jpeg" class="d-block w-100" alt="...">
+
+        <div class="card-body">
+          <p class="card-text">Gym Women</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Boxing_Women.jpeg" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Boxing Women</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            
+            </div>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Women_yoga.jpeg" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Yoga Women</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Men_yoga.jpeg" class="d-block w-100" alt="...">
+        <div class="card-body">
+          <p class="card-text">Yoga Men.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+          
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body  %}
+ 
